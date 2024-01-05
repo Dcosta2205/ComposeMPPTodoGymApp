@@ -16,6 +16,8 @@ kotlinx-coroutines = "1.7.3"
 ktor = "2.3.7"
 moko-mvvm = "0.16.1"
 kamel = "0.8.3"
+uiAndroid = "1.5.4"
+voyagerVersion = "1.0.0"
 
 [libraries]
 compose-ui = { module = "androidx.compose.ui:ui", version.ref = "compose" }
@@ -36,6 +38,10 @@ ktor-client-content-negotiation = { module = "io.ktor:ktor-client-content-negoti
 moko-mvvm-core = { module = "dev.icerock.moko:mvvm-core", version.ref = "moko-mvvm" }
 moko-mvvm-compose = { module = "dev.icerock.moko:mvvm-compose", version.ref = "moko-mvvm" }
 kamel = { module = "media.kamel:kamel-image", version.ref = "kamel" }
+androidx-ui-android = { group = "androidx.compose.ui", name = "ui-android", version.ref = "uiAndroid" }
+voyager-navigator = { group = "cafe.adriel.voyager", name = "voyager-navigator", version.ref = "voyagerVersion" }
+voyager-tab-navigator = { group = "cafe.adriel.voyager", name = "voyager-tab-navigator", version.ref = "voyagerVersion" }
+voyager-transitions = { group = "cafe.adriel.voyager", name = "voyager-transitions", version.ref = "voyagerVersion" }
 
 [plugins]
 androidApplication = { id = "com.android.application", version.ref = "agp" }
